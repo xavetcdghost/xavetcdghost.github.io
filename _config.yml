@@ -10,7 +10,7 @@ title:            Javier M
 tagline:          'Works on my machine.'
 description:      'Engineering, mathematics, writing, and other questionable ideas.'
 url:              https://xavetcghost.github.io
-baseurl:          /
+baseurl:          ""
 
 author:
   name:           'Javier M'
