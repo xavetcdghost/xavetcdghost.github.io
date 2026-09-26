@@ -1,0 +1,37 @@
+---
+---
+@import "jekyll-theme-cayman";
+
+body { background: #f3f7fa; color: #364458; }
+.page-header { background-image: linear-gradient(120deg, #204b91, #087f76); padding: 3.5rem 1.5rem 2rem; }
+.site-name { color: #fff; font-size: 3rem; font-weight: 700; letter-spacing: -.04em; }
+.site-name:hover { color: #fff; text-decoration: none; }
+.project-tagline { max-width: 42rem; margin: 1rem auto 1.5rem; opacity: 1; color: #e2f3f4; }
+.page-header .btn { color: #fff; margin-bottom: 0; border-color: rgba(255,255,255,.5); }
+.page-header .btn[aria-current="page"] { background: #fff; color: #155c72; }
+.main-content { max-width: 58rem; padding: 2.5rem 2rem; overflow-wrap: anywhere; }
+.main-content h1, .main-content h2 { color: #12675f; }
+.main-content .section-title { font-size: 1.6rem; margin-top: 0; margin-bottom: 1.5rem; }
+.post-list { display: grid; gap: 1.5rem; }
+.post-card { padding: 1.8rem 2rem; background: #fff; border: 1px solid #dce6ed; border-left: 5px solid #138579; border-radius: 10px; box-shadow: 0 4px 16px rgba(27,64,93,.05); }
+.post-card:nth-child(3n + 2) { border-left-color: #3677b5; }
+.post-card:nth-child(3n) { border-left-color: #ad6e18; }
+.post-card h2 { margin: .4rem 0 .8rem; font-size: 1.55rem; line-height: 1.35; }
+.post-card h2 a { color: #195b8c; }
+.post-meta { margin: 0; color: #596879; font-size: .9rem; }
+.post-preview { line-height: 1.75; }
+.post-tags { display: flex; flex-wrap: wrap; gap: .5rem; padding: 0; list-style: none; }
+.post-tags li { padding: .2rem .65rem; border-radius: 20px; color: #196257; background: #e8f5f0; font-size: .8rem; }
+.read-more { color: #195b8c; font-weight: 700; }
+.back-link { margin-top: 3rem; }
+a:focus-visible { outline: 3px solid #cb841b; outline-offset: 4px; }
+.site-footer { color: #596879; }
+@media screen and (max-width: 42em) {
+  .page-header { padding: 2rem 1rem 1.5rem; }
+  .site-name { font-size: 2.4rem; }
+  .page-header .btn { display: inline-block; width: auto; padding: .6rem 1rem; }
+  .page-header .btn + .btn { margin: 0 0 0 .5rem; }
+  .main-content { padding: 1.5rem 1rem; }
+  .post-card { padding: 1.25rem; }
+  .post-card h2 { font-size: 1.3rem; }
+}

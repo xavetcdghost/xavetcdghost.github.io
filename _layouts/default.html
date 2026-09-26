@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  <body>
+    <a id="skip-to-content" href="#content">Skip to content</a>
+    <header class="page-header">
+      <a class="site-name" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
+      <p class="project-tagline">{{ site.description | escape }}</p>
+      <nav aria-label="Main navigation">
+        <a class="btn" href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>Home</a>
+        <a class="btn" href="{{ '/about/' | relative_url }}"{% if page.url == '/about/' %} aria-current="page"{% endif %}>About</a>
+      </nav>
+    </header>
+    <main id="content" class="main-content">
+      {{ content }}
+      {% include footer.html %}
+    </main>
+  </body>
+</html>

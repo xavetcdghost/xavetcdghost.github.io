@@ -1,0 +1,11 @@
+---
+layout: default
+---
+<article>
+  <header>
+    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%b %-d, %Y' }}</time></p>
+    <h1>{{ page.title | escape }}</h1>
+  </header>
+  {{ content }}
+  <p class="back-link"><a href="{{ '/' | relative_url }}">&larr; All posts</a></p>
+</article>

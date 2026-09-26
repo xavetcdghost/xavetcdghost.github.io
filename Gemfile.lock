@@ -36,6 +36,9 @@ GEM
       sass (~> 3.4)
     jekyll-seo-tag (2.9.0)
       jekyll (>= 3.8, < 5.0)
+    jekyll-theme-cayman (0.2.0)
+      jekyll (> 3.5, < 5.0)
+      jekyll-seo-tag (~> 2.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     kramdown (2.5.2)
@@ -49,10 +52,6 @@ GEM
       rb-inotify (~> 0.9, >= 0.9.10)
     logger (1.7.0)
     mercenary (0.3.6)
-    minima (2.5.1)
-      jekyll (>= 3.5, < 5.0)
-      jekyll-feed (~> 0.9)
-      jekyll-seo-tag (~> 2.1)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (5.1.1)
@@ -76,8 +75,8 @@ DEPENDENCIES
   jekyll (~> 3.10)
   jekyll-feed (~> 0.17)
   jekyll-seo-tag (~> 2.8)
+  jekyll-theme-cayman (~> 0.2)
   kramdown-parser-gfm (~> 1.1)
-  minima (~> 2.5)
 
 BUNDLED WITH
    2.4.22

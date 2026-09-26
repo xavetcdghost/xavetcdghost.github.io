@@ -1,7 +1,7 @@
 # Dependencies
 markdown:         kramdown
 highlighter:      rouge
-theme:            minima
+theme:            jekyll-theme-cayman
 
 plugins:
   - jekyll-feed
@@ -20,16 +20,6 @@ baseurl:          ""
 author:
   name:           'Javier M'
   url:            https://xavetcghost.github.io
-
-# Navigation and theme
-header_pages:
-  - index.html
-  - about.md
-
-show_excerpts:    false
-
-minima:
-  date_format: "%b %-d, %Y"
 
 exclude:
   - Gemfile
