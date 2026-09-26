@@ -1,6 +1,11 @@
 # Dependencies
 markdown:         kramdown
 highlighter:      rouge
+theme:            minima
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
 
 # Permalinks
 permalink:        pretty
@@ -16,10 +21,17 @@ author:
   name:           'Javier M'
   url:            https://xavetcghost.github.io
 
-paginate:         5
+# Navigation and theme
+header_pages:
+  - index.html
+  - about.md
 
-# Custom vars
-version:          2.1.0
+show_excerpts:    false
 
-github:
-  repo:           https://github.com/xavetcghost/xavetcghost.github.io
+minima:
+  date_format: "%b %-d, %Y"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
