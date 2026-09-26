@@ -13,7 +13,7 @@ permalink:        pretty
 # Setup
 title:            Javier M
 tagline:          'Works on my machine.'
-description:      'Engineering, mathematics, writing, and other questionable ideas.'
+description:      'Site Reliability Engineer. I build resilient systems and write about cloud, Kubernetes, and automation. Fueled by coffee, fascinated by mathematics, and occasionally lost in poetry.'
 url:              https://xavetcghost.github.io
 baseurl:          ""
 
