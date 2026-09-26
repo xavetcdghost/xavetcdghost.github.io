@@ -1,5 +1,6 @@
 {% assign post = include.post %}
   <article class="post-card">
+    {% if post.featured == true %}<span class="featured-badge">Featured</span>{% endif %}
     <p class="post-meta"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%b %-d, %Y' }}</time></p>
     <h2><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
     <p class="post-preview">{{ post.excerpt | strip_html | normalize_whitespace | truncatewords: 65 }}</p>

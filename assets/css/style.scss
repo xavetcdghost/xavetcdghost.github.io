@@ -13,7 +13,6 @@ body { background: #f3f7fa; color: #364458; }
 .main-content h1, .main-content h2 { color: #12675f; }
 .main-content .section-title { font-size: 1.6rem; margin-top: 0; margin-bottom: 1.5rem; }
 .posts-section + .posts-section { margin-top: 3rem; }
-.featured-section .post-card { background: #f0faf7; border-top: 3px solid #138579; }
 .post-list { display: grid; gap: 1.5rem; }
 .post-card { padding: 1.8rem 2rem; background: #fff; border: 1px solid #dce6ed; border-left: 5px solid #138579; border-radius: 10px; box-shadow: 0 4px 16px rgba(27,64,93,.05); }
 .post-card:nth-child(3n + 2) { border-left-color: #3677b5; }
@@ -28,6 +27,17 @@ body { background: #f3f7fa; color: #364458; }
 .back-link { margin-top: 3rem; }
 a:focus-visible { outline: 3px solid #cb841b; outline-offset: 4px; }
 .site-footer { color: #596879; }
+.featured-section { padding: 1.75rem; border-radius: 16px; background: linear-gradient(135deg, #163e64, #12665f); }
+.main-content .featured-section .section-title { color: #fff; font-size: 2rem; }
+.featured-section .post-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.featured-section .post-card { display: flex; flex-direction: column; align-items: flex-start; min-width: 0; padding: 1.5rem; border: 0; border-top: 4px solid #edb84b; background: #fffdf7; box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+.featured-section .post-card:first-child { grid-column: 1 / -1; }
+.featured-section .post-card:first-child h2 { font-size: 1.85rem; }
+.featured-section .read-more { margin-top: auto; padding: .5rem .9rem; border-radius: 6px; background: #195b8c; color: #fff; }
+.featured-badge { display: inline-block; margin-bottom: .8rem; padding: .2rem .65rem; border-radius: 4px; background: #f6d982; color: #543c0d; font-size: .75rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+.recent-section { border-top: 1px solid #cad6df; padding-top: 2rem; }
+.recent-section .post-card { border: 1px solid #dce6ed; border-radius: 6px; box-shadow: none; }
+.recent-section .post-card h2 { font-size: 1.35rem; }
 @media screen and (max-width: 42em) {
   .page-header { padding: 2rem 1rem 1.5rem; }
   .site-name { font-size: 2.4rem; }
@@ -36,4 +46,8 @@ a:focus-visible { outline: 3px solid #cb841b; outline-offset: 4px; }
   .main-content { padding: 1.5rem 1rem; }
   .post-card { padding: 1.25rem; }
   .post-card h2 { font-size: 1.3rem; }
+  .featured-section { padding: 1rem; }
+  .featured-section .post-list { grid-template-columns: minmax(0, 1fr); }
+  .featured-section .post-card { padding: 1.25rem; }
+  .featured-section .post-card:first-child h2 { font-size: 1.45rem; }
 }
