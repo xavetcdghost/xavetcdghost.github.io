@@ -1,5 +1,6 @@
 ---
 layout: post
+featured: true
 title: See HEIC files correctly on Fedora  
 tags: [heic, heif, fedora]
 ---

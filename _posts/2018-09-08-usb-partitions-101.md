@@ -1,5 +1,6 @@
 ---
 layout: post
+featured: true
 title: Particiones USB sin ser experto (Ubuntu)
 tags: [usb partitions]
 ---

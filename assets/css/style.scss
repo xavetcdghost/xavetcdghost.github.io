@@ -12,6 +12,8 @@ body { background: #f3f7fa; color: #364458; }
 .main-content { max-width: 58rem; padding: 2.5rem 2rem; overflow-wrap: anywhere; }
 .main-content h1, .main-content h2 { color: #12675f; }
 .main-content .section-title { font-size: 1.6rem; margin-top: 0; margin-bottom: 1.5rem; }
+.posts-section + .posts-section { margin-top: 3rem; }
+.featured-section .post-card { background: #f0faf7; border-top: 3px solid #138579; }
 .post-list { display: grid; gap: 1.5rem; }
 .post-card { padding: 1.8rem 2rem; background: #fff; border: 1px solid #dce6ed; border-left: 5px solid #138579; border-radius: 10px; box-shadow: 0 4px 16px rgba(27,64,93,.05); }
 .post-card:nth-child(3n + 2) { border-left-color: #3677b5; }

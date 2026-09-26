@@ -1,5 +1,6 @@
 ---
 layout: post
+featured: true
 title: Relevant cloud courses as of July 2023  
 tags: [devops, courses, cloud]
 ---
